@@ -1,0 +1,45 @@
+Generic Lambdas:
+
+C++14 extended lambda expressions to allow auto-typed parameters, enabling lambdas to work with a wider range of argument types without explicit type specification.
+Return Type Deduction for Functions:
+
+C++14 introduced return type deduction for normal functions, allowing you to omit the explicit return type and have it deduced by the compiler based on the return statement(s).
+Variable Templates:
+
+C++14 introduced variable templates, which are similar to function templates but allow you to define variables that depend on a template parameter.
+Aggregate Member Initialization:
+
+C++14 relaxed the rules for aggregate initialization, allowing data members to be initialized using parentheses (e.g., MyStruct s = {1, 2}).
+Digit Separators:
+
+C++14 introduced digit separators (single quotes) within numeric literals to improve readability (e.g., 1'000'000 instead of 1000000).
+Relaxed constexpr Restrictions:
+
+C++14 relaxed some of the restrictions on constexpr functions, making it more flexible to use constexpr for compile-time computations.
+Binary Literals:
+
+C++14 introduced support for binary literals using the 0b prefix (e.g., 0b101010), enhancing readability for binary representation.
+Library Enhancements:
+
+C++14 added several library features, including new algorithms, such as std::make_unique and std::exchange, and improvements to existing library components.
+std::index_sequence and Related Features**:
+
+C++14 introduced std::index_sequence and related features to work with compile-time sequences of integers, making it easier to implement advanced metaprogramming techniques.
+Compile-Time Variables:
+
+C++14 allows you to declare variables in constexpr functions and use them as compile-time constants.
+Heterogeneous Lookup in std::unordered_map and std::unordered_set:
+
+C++14 introduced support for heterogeneous lookup, enabling you to search for elements in unordered containers using a different type than the container's key type.
+Relaxed constexpr Expressions:
+
+C++14 extended the set of allowable constexpr expressions, making it more permissive and allowing a broader range of compile-time computations.
+User-Defined Literals for Standard Library Types:
+
+C++14 allowed user-defined literals for several standard library types, enhancing user customization and interoperability.
+Binary Literals and std::byte:
+
+C++14 introduced binary literals (e.g., 0b1010) and a new standard library type std::byte, making it easier to work with raw binary data.
+std::tuple Enhancements:
+
+C++14 improved std::tuple by adding std::get functions and other utility functions to work with tuples more easily.

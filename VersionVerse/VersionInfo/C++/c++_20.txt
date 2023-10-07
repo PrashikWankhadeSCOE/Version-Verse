@@ -1,0 +1,62 @@
+Concepts:
+
+C++20 introduced concepts, which allow you to specify constraints on template parameters, improving template code clarity and providing better error messages.
+Ranges:
+
+The C++20 Ranges library provided a new way to work with sequences of elements, offering more expressive and composable operations on ranges.
+Coroutines:
+
+C++20 introduced coroutines, which simplify asynchronous and concurrent programming by enabling the creation of functions that can be paused and resumed.
+Modules:
+
+The Modules feature brought improved code organization and encapsulation by replacing traditional header files with module units.
+Three-Way Comparisons:
+
+C++20 introduced the spaceship operator (<=>), enabling concise and efficient three-way comparisons between objects.
+constexpr Improvements:
+
+C++20 extended the capabilities of constexpr by allowing more operations, including dynamic memory allocation and exception handling, within constexpr functions.
+Improved std::format:
+
+The std::format function, introduced in C++20, provided a more powerful and type-safe way to format strings.
+std::chrono Improvements:
+
+C++20 improved the <chrono> library by adding support for time zones and formatting time points and durations.
+Ranges-based for Loops:
+
+C++20 allowed you to use ranges-based for loops for containers and ranges, improving code readability and safety.
+New Standard Library Features:
+
+C++20 introduced several new features and enhancements to the Standard Library, including new data structures (e.g., std::span, std::format), algorithms, and functions.
+std::span:
+
+The std::span type, introduced in C++20, provided a non-owning view of a contiguous sequence of elements, improving safety and flexibility.
+Concepts-based Standard Library:
+
+C++20 introduced a concepts-based Standard Library, allowing library functions and classes to specify requirements on their template parameters using concepts.
+consteval:
+
+The consteval specifier was introduced to indicate that a function should be evaluated at compile-time, similar to constexpr, but with stricter compile-time constraints.
+Improved std::hash:
+
+C++20 improved the behavior of std::hash for certain types, enhancing hash-based containers' performance and reliability.
+std::stop_token:
+
+C++20 introduced std::stop_token to support cooperative cancellation in concurrent code, improving control over asynchronous operations.
+std::source_location:
+
+The std::source_location class provided standardized access to source code location information, helping with debugging and logging.
+Atomic Smart Pointers:
+
+C++20 introduced atomic smart pointers (std::atomic<std::shared_ptr> and std::atomic<std::weak_ptr>), enabling safe concurrent access to shared data.
+Concepts-based Standard Library:
+
+C++20 introduced a concepts-based Standard Library, allowing library functions and classes to specify requirements on their template parameters using concepts.
+Deprecation and Removals:
+
+C++20 marked some older or problematic features as deprecated or removed them entirely, promoting better coding practices and reducing complexity.
+These upgrades in C++20 significantly improved the language and library features, making C++ more expressive, efficient, and safer for modern software development.
+
+
+
+

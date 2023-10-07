@@ -1,0 +1,57 @@
+Standard Library Enhancements:
+
+C++11 extended the Standard Library with new features and components, such as the <thread> library for multithreading support, <mutex> for synchronization, and <chrono> for time-related operations.
+Smart Pointers:
+
+C++11 introduced smart pointers (std::shared_ptr, std::unique_ptr, and std::weak_ptr) to simplify memory management and help prevent memory leaks.
+Lambda Expressions:
+
+Lambda expressions allowed the creation of anonymous functions within C++ code, improving code readability and enabling functional programming constructs.
+Range-Based For Loop:
+
+The range-based for loop made it easier to iterate over elements in a collection or container without the need for explicit iterators.
+Auto Keyword:
+
+The auto keyword introduced type inference, allowing the compiler to deduce the data type of a variable at compile time based on its initialization.
+Rvalue References and Move Semantics:
+
+Rvalue references and move semantics enabled more efficient resource management, such as moving the contents of an object instead of copying it, reducing unnecessary copying overhead.
+Standardized Multithreading:
+
+C++11 provided a standardized and portable way to work with multithreading through the <thread> library, making concurrent programming more accessible and less error-prone.
+Concurrency Support:
+
+C++11 introduced features like std::async, std::future, and std::promise to simplify asynchronous and parallel programming.
+Initializer Lists:
+
+Initializer lists allowed the use of uniform initialization syntax for arrays, containers, and user-defined types.
+New Containers and Algorithms:
+
+C++11 introduced new containers like std::array and std::unordered_map. It also expanded the set of algorithms available in the Standard Library.
+User-Defined Literals:
+
+User-defined literals enabled the creation of custom literals for user-defined types, enhancing code readability and expressiveness.
+constexpr:
+
+The constexpr keyword was introduced to specify that a function or variable could be evaluated at compile time, enabling more efficient and optimized code.
+Variadic Templates:
+
+Variadic templates allowed the creation of templates that can accept a variable number of template arguments, improving template metaprogramming capabilities.
+Type Traits:
+
+Type traits (e.g., std::is_same, std::is_pointer) provided compile-time type information, facilitating template metaprogramming and generic programming.
+nullptr:
+
+The nullptr keyword replaced the use of NULL or 0 for representing null pointers, reducing potential ambiguities.
+Override and Final Specifiers:
+
+The override and final specifiers improved code safety and helped prevent unintended method overrides and inheritance.
+Thread-Local Storage (TLS):
+
+C++11 introduced the thread_local keyword to define variables with thread-local storage, allowing each thread to have its own instance of the variable.
+Explicit Conversion Operators:
+
+C++11 allowed the creation of explicit conversion operators, enhancing type conversion control.
+Standardization of More C99 Features:
+
+C++11 standardized many features from the C99 standard, including variable-length arrays (VLAs), the long long integer type, and more.

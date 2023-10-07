@@ -1,0 +1,23 @@
+Java SE 11, released on September 25, 2018, as part of Oracle's new release cadence and long-term support (LTS) strategy, introduced several notable features and enhancements to the Java programming language and platform. Java 11 is an LTS release, meaning it receives long-term support for a period of eight years. Here are the key features and improvements in Java SE 11:
+
+1.Local-Variable Syntax for Lambda Parameters (var):Java 11 extended the `var` feature introduced in Java 10 to allow the use of `var` in lambda expressions, further reducing boilerplate code.
+
+2.HTTP Client (Standard):Java 11 introduced a new, standardized HTTP client API (java.net.http) to replace the deprecated `HttpURLConnection` class. This API offers more modern and flexible HTTP communication capabilities, including support for HTTP/2 and WebSocket protocols.
+
+3.Flight Recorder (JFR):Flight Recorder, previously a commercial feature, was made available in Java 11 as an open-source feature (JEP 328). It provides low-overhead profiling and diagnostics capabilities for monitoring and diagnosing applications.
+
+4.Epsilon Garbage Collector:Java 11 introduced the "Epsilon" garbage collector (JEP 318), which is a no-op garbage collector primarily aimed at performance testing and extremely low-latency scenarios. It helps identify the minimum overhead imposed by the garbage collection system.
+
+5.Dynamic Class-File Constants (JEP 309):This feature added support for a new constant pool form in class files to represent dynamically computed constants more efficiently.
+
+6.Nest-Based Access Control (JEP 181):Nestmates (JEP 181) improved access control for private members of nested classes, enhancing performance and enabling better code optimization.
+
+7.Unicode 10 Support:Java SE 11 incorporated support for Unicode 10.0, including additional characters and emoji.
+
+8.Deprecations and Removals:Java 11 deprecated or removed several APIs and features, including the `rmiregistry`, `pack200` tools, and certain Java EE and CORBA modules. It also removed the Java EE and CORBA modules, marking a significant step toward modularization.
+
+9.Enhancements to the JDK Modules:Java 11 introduced improvements and updates to various modules in the JDK, enhancing security, performance, and stability.
+
+10.Low-Impact Functional Interfaces (JEP 320):This enhancement improved the standard functional interfaces by adding new default methods that have no significant impact on existing code but allow for better code evolution in the future.
+
+Java SE 11 was a significant release because it marked the start of the new LTS schedule and brought important updates to the platform, particularly in the areas of HTTP communication, garbage collection, and module system refinements. Its long-term support status made it an attractive choice for enterprises and applications requiring stability and longevity.

@@ -1,0 +1,27 @@
+Java SE 8, released by Oracle Corporation on March 18, 2014, introduced several significant features and enhancements to the Java programming language and platform. Some of the major features of Java SE 8 include:
+
+1.Lambda Expressions:Lambda expressions allow the representation of a function as an argument to another function. They simplify the writing of code by enabling the use of functional programming paradigms in Java.
+
+2.Functional Interfaces:Functional interfaces are interfaces that have exactly one abstract method. Java SE 8 introduced the `@FunctionalInterface` annotation to mark such interfaces explicitly, and these interfaces are often used with lambda expressions.
+
+3.Streams API:The Streams API provides a new abstraction for working with sequences of data, making it easier to process and manipulate collections of objects. It includes methods for filtering, mapping, and reducing data.
+
+4.Default Methods:Default methods allow interfaces to have method implementations, reducing the need for changes to existing code when adding new methods to interfaces. This feature was introduced to enhance backward compatibility.
+
+5.Method References:Method references provide a shorthand notation for referring to methods or constructors using lambda expressions. They improve code readability, especially when working with functions like mapping and filtering.
+
+6.New Date and Time API (java.time):Java SE 8 introduced a new Date and Time API in the `java.time` package, which offers improved date and time handling, including support for time zones and formatting.
+
+7.Nashorn JavaScript Engine:Replaced the aging Rhino JavaScript engine with Nashorn, a modern JavaScript engine for the JVM. Nashorn provided improved performance and better integration with Java.
+
+8.Functional Programming Enhancements:Java SE 8 brought functional programming enhancements to the language, including the `java.util.function` package with functional interfaces like `Predicate`, `Consumer`, `Function`, and `Supplier`.
+
+9.Parallel Streams:Building on the Streams API, Java SE 8 introduced parallel streams, allowing developers to easily parallelize data processing tasks, taking advantage of multi-core processors.
+
+10.Type Annotations:Type annotations (introduced by JSR 308) allowed developers to apply annotations to the use of types, including improved null checking and better type inference.
+
+11.Other Language and Library Enhancements:Java SE 8 included various language and library enhancements, such as the `java.util.Optional` class for dealing with potentially null values, improvements to the Collections framework, and the introduction of the `java.util.Base64` class for encoding and decoding binary data.
+
+12.Compact Profiles:Compact profiles allowed developers to create smaller, customized versions of the Java SE platform to reduce the footprint for embedded and mobile applications.
+
+These features and enhancements in Java SE 8 significantly improved the expressiveness, performance, and maintainability of Java code. It marked a major step forward for the Java language and made it more competitive in modern software development.

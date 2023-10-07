@@ -1,0 +1,39 @@
+Standard Template Library (STL): C++98 included the Standard Template Library, a collection of template classes and functions for common data structures (e.g., vectors, lists, and queues) and algorithms (e.g., sorting and searching).
+
+Templates: Templates allowed generic programming, enabling the creation of data structures and algorithms that work with different data types. Function templates and class templates were introduced.
+
+Exception Handling: C++98 introduced the try, catch, and throw keywords for structured exception handling, making it easier to handle and propagate errors in a structured manner.
+
+Namespaces: C++98 introduced namespaces to manage the organization of code and prevent naming conflicts between different parts of a program.
+
+Standard I/O Library: C++98 included the <iostream> library, which provided a more robust and type-safe approach to input and output operations compared to C's stdio.h.
+
+New and Delete Operators: The new and delete operators were introduced for dynamic memory allocation and deallocation, simplifying memory management.
+
+Standard Template Library (STL): C++98 included the Standard Template Library, a collection of template classes and functions for common data structures (e.g., vectors, lists, and queues) and algorithms (e.g., sorting and searching).
+
+Function Overloading: C++98 allowed functions with the same name but different parameter lists to be defined, enabling function overloading.
+
+1.Operator Overloading: C++98 allowed user-defined classes to overload operators, enabling custom behaviors for operators like +, -, *, and <<.
+
+2.Class Access Control: C++98 introduced access control keywords (public, private, and protected) to specify the visibility of class members, enabling encapsulation and data hiding.
+
+3.Inheritance: C++98 supported single and multiple inheritance, allowing classes to inherit attributes and behaviors from one or more base classes.
+
+4.Virtual Functions: C++98 introduced virtual functions and runtime polymorphism, enabling dynamic method dispatch and facilitating the use of base class pointers to access derived class objects.
+
+5.Function and Class Templates: C++98 allowed the creation of function templates and class templates, enabling the development of reusable generic code.
+
+6.STL Iterators: C++98 introduced iterators, which provided a standardized way to traverse elements in containers, making it easier to work with data structures in a generic manner.
+
+7.Standard Library Containers: C++98 defined various container classes, including vectors, lists, sets, and maps, as part of the Standard Template Library (STL).
+
+8.Standard Library Algorithms: The STL included a collection of algorithms (e.g., sort(), find(), and transform()) that could be used with different container types.
+
+9.Standard Library Function Objects: C++98 introduced function objects (functors) to encapsulate operations that could be passed as arguments to algorithms, providing flexibility and customization.
+
+10.Standard Library Streams: The <iostream> library introduced streams, allowing for formatted input and output operations using the >> and << operators.
+
+11.Type-Safe Exception Handling: C++98 improved exception handling by introducing type-specific catch clauses, making it easier to catch and handle specific exceptions.
+
+12.Standard Library Headers: C++98 included standard library headers for various functionalities, such as <vector>, <map>, <algorithm>, <string>, and <fstream>, among others.

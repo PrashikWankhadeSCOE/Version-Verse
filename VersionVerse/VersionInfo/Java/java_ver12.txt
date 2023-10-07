@@ -1,0 +1,21 @@
+Java SE 12, released on March 19, 2019, as part of Oracle's new release cadence, continued the trend of delivering smaller, more frequent updates to the Java platform. While it did not introduce as many major features as some previous versions, it included several enhancements and improvements. Here are the notable features and changes in Java SE 12:
+
+1.Switch Expressions (Preview):Java SE 12 introduced preview support for enhanced switch expressions (JEP 325). This feature extended the traditional switch statement to allow it to be used as an expression, resulting in more concise and readable code.
+
+2.JVM Constants API (JEP 334):The JVM Constants API (JEP 334) provided a standardized way to represent and manipulate constants in the Java Virtual Machine (JVM). It aimed to improve performance and reduce dynamic memory usage.
+
+3.Microbenchmark Suite (JEP 230):Java SE 12 included a microbenchmarking suite (JEP 230) called `java microbenchmarking harness` (JMH) to assist in performance testing and benchmarking of Java code.
+
+4.New Default Garbage Collector (Shenandoah):Shenandoah (JEP 333) was introduced as an experimental garbage collector. It focused on low-pause time, making it suitable for applications requiring low-latency performance.
+
+5.Deprecations and Removals:Java SE 12 continued the process of deprecating and removing older features, such as the `Applet API`, which was marked for removal, and various command-line options that were deprecated.
+
+6.Deprecating Nashorn JavaScript Engine:The Nashorn JavaScript engine, which was introduced in Java SE 8, was deprecated in Java SE 11 and no longer included in Java SE 12. Developers were encouraged to migrate to alternative JavaScript engines.
+
+7.Enhancements and Bug Fixes:Java SE 12 included numerous enhancements and bug fixes aimed at improving the overall performance, stability, and security of the platform.
+
+8.Low-Impact Features:Java SE 12 focused on introducing features that had a low impact on existing code to ensure smoother adoption and migration.
+
+It's important to note that some features in Java SE 12 were marked as preview features, which meant they were not considered stable and might undergo changes or be removed in future versions. Developers were encouraged to use preview features with caution and provide feedback to help shape their final form.
+
+Java SE 12 continued the trend of providing regular updates and improvements to the Java platform, making it easier for developers to stay current with the latest features and enhancements.

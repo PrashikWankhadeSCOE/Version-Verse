@@ -1,0 +1,19 @@
+Java SE 13, released on September 17, 2019, as part of Oracle's new release cadence, introduced several enhancements and improvements to the Java platform. While Java SE 13 did not introduce as many major features as some previous versions, it included notable changes and enhancements. Here are the key features and changes in Java SE 13:
+
+1.Text Blocks (Preview):Java SE 13 introduced preview support for text blocks (JEP 355), which provided a more readable way to declare multi-line strings. Text blocks aimed to improve the readability and maintainability of code that includes lengthy string literals.
+
+2.Switch Expressions (Standard):Building on the preview feature in Java SE 12, switch expressions (JEP 354) became a standard feature in Java SE 13. It allowed the use of `switch` as an expression, making code more concise and expressive.
+
+3.Dynamic CDS Archives (JEP 341):Dynamic Class-Data Sharing (CDS) Archives introduced the ability to create CDS archives at runtime. This feature aimed to improve startup times and reduce memory footprint by enabling more efficient class loading.
+
+4.Deprecations and Removals:Java SE 13 continued the process of deprecating and removing older features and APIs that were no longer considered useful or relevant.
+
+5.Enhancements and Bug Fixes:Java SE 13 included various enhancements and bug fixes aimed at improving the overall performance, stability, and security of the platform.
+
+6.Low-Impact Features:Similar to Java SE 12, Java SE 13 focused on introducing features with low impact on existing code, ensuring a smoother adoption process.
+
+7.Garbage Collection and Performance Improvements:While not a major feature, Java SE 13 included ongoing work on garbage collection and performance enhancements to improve the overall efficiency of the JVM.
+
+As with Java SE 12, some features in Java SE 13 were marked as preview features, which meant they were not considered stable and might undergo changes or be removed in future versions. Developers were encouraged to use preview features with caution and provide feedback to help shape their final form.
+
+Java SE 13 continued the new release cadence introduced in Java SE 9, with the goal of providing more frequent updates and improvements to the Java platform. This approach allowed developers to access new features and enhancements in a timely manner.

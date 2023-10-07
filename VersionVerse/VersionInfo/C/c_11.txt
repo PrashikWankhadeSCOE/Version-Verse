@@ -1,0 +1,39 @@
+1.Standardization: C11 is a formal standard for the C programming language, providing a clear nd comprehensive specification of the language.
+
+2.Multithreading Support: C11 introduced a standardized threading library with features like thread creation, synchronization primitives (atomic operations, mutexes, condition variables), and thread management.
+
+3.Atomic Operations: The <stdatomic.h> header provides atomic types and operations for thread-safe programming, including atomic variables and memory barriers.
+
+4.Thread-Local Storage: C11 introduced support for thread-local storage, allowing variables to have thread-specific instances.
+
+5.Static Assertions: The _Static_assert keyword enables compile-time assertions, allowing you to check conditions at compile time and produce an error if they fail.
+
+6.Alignof Operator: The alignof operator allows you to determine the alignment requirements of a data type, useful for low-level memory management.
+
+7.Generic Selection: C11 introduced the _Generic keyword, enabling type-generic programming for functions and macros based on the type of an expression.
+
+8.Improved Unicode Support: C11 enhanced support for Unicode by introducing the <uchar.h> header for working with Unicode characters and strings.
+
+9.Complex Types: C11 extended the complex number support introduced in C99, providing additional complex math functions and types for complex arithmetic.
+
+10.Improved Floating-Point Support: C11 added more precise floating-point control through the <fenv.h> header, allowing control over rounding modes and exceptions.
+
+11.Dynamic Memory Alignment: The _Alignas keyword allows you to specify the alignment requirements for data types or variables, improving control over memory alignment.
+
+12.Anonymous Structures and Unions: C11 introduced the ability to define anonymous structures and unions, simplifying code and reducing namespace pollution.
+
+13.Compound Literals: C11 continued to support compound literals, which enable the creation of unnamed objects with a specific type.
+
+14.Improved #pragma Directives: C11 introduced new #pragma directives for controlling behavior specific to compilers and platforms.
+
+15.Additional Standard Library Functions: C11 extended the standard library with functions for handling mathematical errors (math_errhandling), time manipulation, and more.
+
+16.New Headers: C11 introduced new headers, such as <stdalign.h> for alignment control, <stdnoreturn.h> for specifying that a function does not return, and <tgmath.h> for type-generic mathematical functions.
+
+17.Optional Features: C11 introduced a mechanism for identifying optional language features and library functions through feature test macros (e.g., _ISOC11_SOURCE).
+
+18.Library Additions: C11 expanded the library with functions for handling complex numbers (cproj(), creal()), error reporting, and memory management (aligned_alloc()).
+
+19.Secure Library Functions: C11 introduced a set of bounds-checking library functions, such as gets_s(), to help prevent buffer overflows and enhance security.
+
+20.Dynamic Array Support: While not a built-in feature, C11 provided guidelines for creating dynamic arrays using flexible array members and variable-length arrays (VLAs).

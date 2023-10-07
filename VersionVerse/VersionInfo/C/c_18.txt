@@ -1,0 +1,15 @@
+1.Clarifications and Corrections: C18 includes numerous clarifications and corrections to ambiguities and inconsistencies that were present in previous versions of the C standard.
+
+2.Standard Library Enhancements: C18 made minor additions to the standard library, such as new functions for improved compatibility and consistency. It also clarified certain library function behaviors.
+
+3.Updates to Conformance: C18 refined the conformance requirements for both compilers and programs, providing a more precise definition of how conforming C programs should behave.
+
+4.Bounds Checking Interface: C18 introduced optional bounds-checking interfaces to improve safety and help prevent buffer overflows. These interfaces were not mandatory but provided a standardized way to address security concerns.
+
+5.Preprocessor Enhancements: C18 improved the definition and behavior of certain preprocessor directives, including the __STDC_VERSION__ macro, to more accurately reflect the standard version.
+
+6.Unicode Improvements: C18 made minor adjustments to improve support for Unicode characters and character literals, enhancing the portability of C code across different platforms.
+
+7.Type Limits: The standard clarified certain implementation-defined limits and ranges for integer types, providing more predictable behavior.
+
+8.Other Miscellaneous Improvements: C18 addressed various minor issues and inconsistencies, including the behavior of the assert() macro and handling of trigraph sequences.

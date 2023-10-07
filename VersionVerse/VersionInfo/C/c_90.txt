@@ -1,0 +1,45 @@
+"ANSI C," often referred to as "C89" or "C90" (because it was standardized by the American National Standards Institute in 1989 but published in 1990), was a significant milestone in the history of the C programming language
+
+1. Standardization: ANSI C was the first formal standard for the C programming language. It provided a clear and unambiguous definition of the language's syntax, semantics, and library functions.
+
+2. Standard Library: ANSI C introduced a standard library that included functions for common operations, such as input and output (e.g., printf() and scanf()), mathematical calculations (e.g., sqrt() and sin()), and string manipulation (e.g., strlen() and strcpy()). These functions were declared in standard header files (e.g., <stdio.h> and <math.h>).
+
+3. Function Prototypes: ANSI C introduced the concept of function prototypes, allowing functions to be declared with their parameter types and return type. This enhanced type checking and made code more robust.
+
+4. New Keywords: ANSI C introduced new keywords, such as const for defining constant variables and void as a parameter type indicating no value. It also added volatile for variables whose values can change without warning.
+
+5. Standard Headers: ANSI C standardized a set of header files, including <stddef.h> for defining types like size_t, <limits.h> for defining implementation-specific limits, and <stdlib.h> for functions like malloc() and free().
+
+6. Additional Data Types: ANSI C introduced new data types like long, unsigned, and signed, providing better control over variable sizes and representation.
+
+7. Standard I/O: The standard I/O functions, such as printf(), scanf(), and fprintf(), became part of the standard library. They allowed consistent input and output across different systems.
+
+8. Error Handling: ANSI C introduced the <errno.h> header and the errno variable for handling runtime errors.
+
+9. Header Inclusion: The #include directive, as we know it today, was formalized in ANSI C. It allowed the inclusion of standard and user-defined header files.
+
+10. Function Return Type: In ANSI C, if a function didn't have an explicitly defined return type, it was assumed to return an int. This was a change from earlier versions where it was implicitly assumed to return an int.
+
+11. Enum Types: ANSI C introduced enumeration types (enum), allowing programmers to define named constants with symbolic names.
+
+12. Escape Sequences: ANSI C standardized escape sequences for special characters in string literals (e.g., \n for a newline).
+
+13. Standardized Preprocessor: ANSI C defined a set of preprocessor directives, including #define, #ifdef, #ifndef, #endif, and others, for code preprocessing.
+
+14. Comments: ANSI C introduced the /* ... */ style of comments for both single-line and multi-line comments.
+
+15. Sizeof Operator: ANSI C introduced the sizeof operator for determining the size, in bytes, of a data type or variable.
+
+16. Relational and Logical Operators: ANSI C defined the relational operators (==, !=, <, <=, >, >=) and logical operators (&&, ||, !) as part of the language.
+
+17. Prototype Scope: Function prototype parameters were given their own scope within the prototype declaration, helping avoid naming conflicts.
+
+18. Library Math Functions: ANSI C standardized various mathematical functions, such as trigonometric and logarithmic functions, in the <math.h> header.
+
+19. Library Time Functions: The <time.h> header provided functions for working with time and dates.
+
+20. Improved Portability: ANSI C aimed to improve code portability by defining the language and library in a way that made it easier to write programs that would work on different systems without modification.
+
+21. Unsigned Characters: ANSI C defined that char could be signed or unsigned, depending on the implementation.
+
+22. Function Definitions: ANSI C allowed function definitions within other functions, although this feature was not widely used.

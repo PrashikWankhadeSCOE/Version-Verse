@@ -1,0 +1,39 @@
+1. Standardization: C99, also known as the ISO/IEC 9899:1999 standard, is a formal standard for the C programming language, providing a clear and comprehensive specification of the language.
+
+2. Standard Library Enhancements: C99 expanded the standard library with new functions and headers, including <stdint.h> for fixed-width integer types and <stdbool.h> for the _Bool type and boolean values.
+
+3. Variable-Length Arrays (VLAs): C99 introduced the ability to declare arrays with a size determined at runtime, providing more flexibility in array allocation.
+
+4. Flexible Array Members: C99 allowed the last member of a struct to be an incomplete array (a flexible array member), enabling dynamic memory allocation within the struct.
+
+5. Complex Number Support: C99 added support for complex numbers as built-in types, making it easier to work with complex mathematical calculations.
+
+6. Designated Initializers: C99 introduced the ability to initialize specific members of a struct or array using designated initializers, improving code readability.
+
+7. Compound Literals: Compound literals in C99 enable the creation of unnamed objects with a specific type, useful for temporary data structures.
+
+8. Inline Functions: C99 introduced the inline keyword to suggest that a function be inlined by the compiler for performance optimization.
+
+9.Boolean Type: C99 introduced a boolean type (_Bool) and boolean values (true and false) as part of the <stdbool.h> header.
+
+10.New Preprocessor Directives: C99 added new preprocessor directives, including __func__ for obtaining the current function's name and __VA_ARGS__ for handling variable-length argument lists.
+
+11.Improved Support for Comments: C99 allowed the use of C++-style // comments, making it easier to write single-line comments.
+
+12.New Library Functions: C99 introduced new library functions, such as snprintf() for safer string formatting and stdint.h functions like intmax_t and uintmax_t for maximum and minimum integer values.
+
+13.New Headers: C99 added headers like <inttypes.h> for integer types, <tgmath.h> for type-generic mathematical functions, and <complex.h> for complex number support.
+
+14.**Type _Complex**: C99 introduced the _Complex type qualifier for complex numbers, along with _Imaginary for imaginary numbers.
+
+15.Standardization of the restrict Keyword: The restrict keyword, which was introduced in C99, was standardized in this version, indicating that a pointer does not alias other pointers.
+
+16.Additional Format Specifiers: C99 introduced new format specifiers for printf() and scanf(), such as %zu for size_t and %lld for long long integers.
+
+17.Improved Floating-Point Support: C99 provided more precise definitions of floating-point behavior and added new math functions for handling special floating-point values.
+
+18.Additional Integer Types: C99 introduced fixed-width integer types, such as int32_t and uint64_t, for specifying exact integer sizes.
+
+19.Complex Math Functions: C99 added mathematical functions for complex numbers, such as cabs(), carg(), and clog(), in the <complex.h> header.
+
+20.Library Additions: C99 expanded the library with functions for handling file I/O, error handling, and time manipulation.

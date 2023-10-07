@@ -1,0 +1,19 @@
+Java SE 10, officially released on March 20, 2018, continued the new release cadence introduced in Java SE 9, with a focus on delivering smaller, more frequent updates to the Java platform. While Java SE 10 did not introduce as many major language changes as some previous versions, it did include several notable features and improvements. Here are the key aspects of Java SE 10:
+
+1.Local Variable Type Inference (var):Java SE 10 introduced the `var` keyword, which allows developers to declare local variables with inferred types. This feature enhances code readability without sacrificing Java's strong typing.
+
+2.Garbage Collector Interface:Java SE 10 introduced a new garbage collector interface called the "Garbage-Collector Interface" (JEP 333). This allows alternative garbage collectors to be more easily plugged into the JVM.
+
+3.Application Class-Data Sharing:A new feature called "Application Class-Data Sharing" (JEP 310) was introduced to improve startup time and reduce memory footprint by sharing class metadata across multiple Java processes.
+
+4.Experimental Just-In-Time (JIT) Compiler:Java SE 10 included an experimental JIT compiler known as "Graal" (JEP 317) that aimed to improve code execution performance.
+
+5.Root Certificates:The `cacerts` keystore in the JDK was updated with additional root certificates (JEP 319) to ensure secure communication over SSL/TLS.
+
+6.Thread-Local Handshakes:Java SE 10 introduced a more efficient threading framework called "Thread-Local Handshakes" (JEP 312) to improve garbage collection and concurrency performance.
+
+7.Heap Allocation on Alternative Memory Devices:This feature (JEP 316) allowed developers to allocate the Java object heap on non-volatile memory (NVM) devices for applications requiring high memory capacity and data persistence.
+
+8.Time-Based Release Versioning:Java SE 10 introduced a new versioning scheme where each feature release has a short-term support (STS) status, and a new feature release is made every six months. This approach aims to provide more frequent updates to the platform.
+
+Java SE 10 was considered a relatively minor release compared to some of its predecessors but continued the practice of delivering regular updates and improvements to the Java platform. Developers were encouraged to stay up-to-date with the new release cadence to benefit from the latest features and enhancements.

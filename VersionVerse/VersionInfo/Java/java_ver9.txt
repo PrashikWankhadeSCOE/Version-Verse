@@ -1,0 +1,29 @@
+Java SE 9, officially released by Oracle Corporation on September 21, 2017, introduced several notable features and enhancements to the Java programming language and platform. Some of the major features of Java SE 9 include:
+
+1.Module System (Project Jigsaw):The introduction of the Java Platform Module System (JPMS) allowed developers to modularize their code, making it more maintainable and scalable. It brought the `module-info.java` file, enabling fine-grained control over dependencies.
+
+2.JShell (Read-Eval-Print Loop - REPL):JShell is an interactive command-line tool that allows developers to experiment with Java code snippets and expressions without the need to create a complete Java program. It provides a quick and convenient way to test code.
+
+3.Improved Process API (ProcessHandle):Java SE 9 enhanced the Process API, introducing the `ProcessHandle` class that provides better control and management of processes, including listing and destroying processes.
+
+4.Try-With-Resources Enhancement:In Java SE 9, try-with-resources was enhanced to allow effectively final variables to be used in the resource declaration, simplifying resource management.
+
+5.Stream API Enhancements:Java SE 9 added several enhancements to the Stream API, including new methods for conditional processing (`takeWhile` and `dropWhile`) and improved compatibility with existing non-Java collections (e.g., `Set` and `Map`).
+
+6.Private Interface Methods:Java SE 9 introduced the ability to declare private methods in interfaces, allowing code reuse and reducing code duplication within interface hierarchies.
+
+7.HTTP/2 Client (incubator module):Java SE 9 introduced an experimental HTTP client library in the `java.net.http` package, offering support for HTTP/2 and WebSocket protocols.
+
+8.Improved Deprecation:Java SE 9 enhanced the deprecation mechanism, allowing developers to specify when a deprecated feature would be removed, providing clearer guidance for migration.
+
+9.Enhanced @SafeVarargs:The `@SafeVarargs` annotation was extended to allow its use on private instance methods, providing better type safety when using varargs.
+
+10.Enhanced Security:Java SE 9 improved security by removing deprecated and less secure cryptographic algorithms and protocols.
+
+11.Unicode 8.0 Support:Java SE 9 added support for Unicode 8.0, which included additional characters and scripts.
+
+12.Enhanced Process Monitoring:Java SE 9 introduced enhancements to the `jcmd` and `jinfo` command-line tools, making it easier to monitor and diagnose Java processes.
+
+It's worth noting that Java SE 9 introduced a new release cadence with a time-driven model, leading to more frequent Java releases. This change aimed to provide developers with more timely access to new features and improvements.
+
+Java SE 9 marked a significant step forward in terms of modularity, tooling, and developer productivity. However, the introduction of the module system was a major change that required careful consideration when migrating existing codebases to this version of Java.

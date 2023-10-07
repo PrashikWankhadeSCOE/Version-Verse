@@ -1,0 +1,27 @@
+JDK 1.1, released on February 2, 1997, was an important update to the Java platform, building upon the foundation established by JDK 1.0. It introduced several significant features and improvements to the language and platform. Some of the major features of JDK 1.1 included:
+
+1.Inner Classes:JDK 1.1 introduced the concept of inner classes, which allowed developers to define one class within another class. This feature improved code organization and encapsulation.
+
+2.AWT Enhancements:The Abstract Window Toolkit (AWT) was enhanced with more components and better event handling. It also introduced the concept of layout managers for more precise control over the arrangement of graphical components.
+
+3.JavaBeans:JavaBeans, a component architecture for building reusable software components, was introduced in JDK 1.1. This allowed developers to create and use visual and non-visual components in their applications.
+
+4.RMI (Remote Method Invocation):JDK 1.1 included the RMI framework, which allowed developers to create distributed and networked applications more easily. RMI enabled remote method calls between Java objects running on different machines.
+
+5.JDBC (Java Database Connectivity):The JDBC API was introduced in JDK 1.1, providing a standardized way to connect Java applications to relational databases. This made it easier to work with databases from Java programs.
+
+6.Collections Framework:While not as comprehensive as later versions, JDK 1.1 introduced some basic collection classes, including Vector and Hashtable, which were part of the early collections framework in Java.
+
+7.JAR (Java Archive) Files:JDK 1.1 introduced the JAR file format, which allowed developers to package multiple Java classes and resources into a single compressed archive file. JAR files simplified distribution and deployment of Java applications and libraries.
+
+8.Security Improvements:JDK 1.1 improved the security model introduced in JDK 1.0, providing better control over applet execution and access to system resources.
+
+9.Internationalization (I18N):JDK 1.1 included enhancements for internationalization and localization, making it easier to create Java applications that could support multiple languages and regions.
+
+10.Performance Improvements:JDK 1.1 featured various performance enhancements, including faster execution of Java programs and improvements in the Java Virtual Machine (JVM).
+
+11.Reflection API:JDK 1.1 introduced the Reflection API, which allowed developers to inspect and manipulate classes, methods, and fields at runtime. This feature enabled more dynamic and flexible programming.
+
+12.Java Naming and Directory Interface (JNDI):JNDI was introduced in JDK 1.1, providing a standardized way to access naming and directory services in a networked environment.
+
+These features and enhancements in JDK 1.1 contributed to the continued growth and popularity of Java as a platform for building diverse and powerful applications, both on the client and server sides.

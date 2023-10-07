@@ -1,0 +1,23 @@
+JDK 1.0, released on January 23, 1996, was the first official version of the Java Development Kit. It introduced several key features and technologies that laid the foundation for Java's popularity and success. Some of the major features and components of JDK 1.0 included:
+
+1.Java Applets: Java 1.0 introduced the concept of "applets," which were small, platform-independent programs that could be embedded within web pages. Applets allowed interactive and dynamic content to be delivered over the internet, revolutionizing web development at the time.
+
+2.AWT (Abstract Window Toolkit): AWT was the original GUI (Graphical User Interface) library for Java. It provided a set of platform-independent GUI components and widgets, allowing developers to create graphical user interfaces for their Java applications.
+
+3.Garbage Collection:JDK 1.0 included automatic memory management through garbage collection. This feature relieved developers from manual memory management, making Java programs more robust and less error-prone.
+
+4.Security Model:Java 1.0 introduced a security model that allowed applets to run securely within web browsers. It included features like the "sandbox" environment to prevent malicious code from harming the user's system.
+
+5.Multithreading:Java supported multithreading from its early versions, including JDK 1.0. Multithreading allowed developers to write concurrent and responsive programs.
+
+6.Standard Libraries:JDK 1.0 included a set of standard class libraries, including the java.lang, java.util, and java.io packages, which provided fundamental utilities and data structures for Java developers.
+
+7.Network Support:Java 1.0 included libraries for networking, enabling developers to create networked applications and applets that could communicate over the internet.
+
+8.Bytecode:Java introduced the concept of compiling source code into bytecode, which is a platform-independent intermediate representation of the code. This bytecode could be executed on any Java Virtual Machine (JVM), making Java programs highly portable.
+
+9.Basic Language Features:JDK 1.0 included the core features of the Java programming language, including object-oriented principles like classes and objects, inheritance, and exception handling.
+
+10.JVM (Java Virtual Machine):JDK 1.0 included the first version of the Java Virtual Machine, responsible for executing Java bytecode on various platforms.
+
+It's important to note that while JDK 1.0 introduced these fundamental features, Java has evolved significantly over the years with the introduction of new features, APIs, and improvements in subsequent versions. Developers are encouraged to use more recent versions of Java for enhanced performance, security, and features.

@@ -1,0 +1,19 @@
+Java SE 14, also known as Java 14 or JDK 14, is a version of the Java Platform, Standard Edition (Java SE) that was released on March 17, 2020. It introduced several new features and enhancements to the Java programming language and platform. Some of the notable features and improvements in Java SE 14 include:
+
+1.Pattern Matching for instanceof: This feature simplifies common coding patterns by allowing you to use a pattern in the `instanceof` operator. It improves code readability and reduces the need for explicit casting.
+
+2.Switch Expressions (Standard):In Java SE 14, switch expressions were made a standard feature. This enhancement simplifies the syntax of the switch statement and makes it more expressive, reducing the chances of fall-through errors.
+
+3.Text Blocks: Text blocks make it easier to write and maintain multi-line string literals. They allow you to write multi-line strings in a more readable and concise way by removing the need for explicit line breaks and escaping characters.
+
+4.Records: Records are a new type of class that simplifies the creation of classes whose main purpose is to store data. They automatically generate getters, equals, hashCode, and toString methods based on the class's fields.
+
+5.Foreign Function & Memory API (Incubator): This feature provides a way to interact with native code and memory in a safer and more controlled manner. It aims to improve the interoperability of Java with native libraries.
+
+6.Deprecating the Solaris and SPARC Ports: In Java SE 14, the Solaris and SPARC ports were deprecated, which means they are no longer actively supported and may be removed in future versions.
+
+7.Other Enhancements: Java SE 14 also included various other improvements, bug fixes, and updates to libraries and tools.
+
+It's important to note that Java SE 14 had a short-term support release cycle, meaning it had a limited support period. As of my last knowledge update in September 2021, it was recommended to consider upgrading to a version with long-term support (LTS) for production use. Java SE 11 and Java SE 17 were LTS releases, and it's advisable to use one of these versions for long-term, stable projects.
+
+Please check the Oracle or OpenJDK website for the most up-to-date information on Java versions and their support status as of your current date in 2023.

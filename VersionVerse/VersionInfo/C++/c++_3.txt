@@ -1,0 +1,19 @@
+Name Resolution and Lookup: C++03 provided more precise rules for name resolution and lookup, addressing some ambiguities and making it easier to understand how names are resolved in complex scenarios.
+
+Exception Specifications: The use of exception specifications (e.g., throw(int)) was revised in C++03 to provide clearer semantics and to better align with actual compiler behavior. The revised rules helped avoid unexpected program termination due to unhandled exceptions.
+
+Standard Library Improvements: C++03 included corrections and improvements to the Standard Library, addressing known issues in C++98 and enhancing the reliability and robustness of library components.
+
+Standard Library Additions: While C++03 primarily focused on corrections and clarifications, it introduced some new features in the Standard Library. One notable addition was the std::bitset class for efficient bit manipulation.
+
+Exception Handling Enhancements: C++03 refined the rules for exception handling, especially in cases involving stack unwinding and object destruction. This helped in writing more robust and predictable exception-safe code.
+
+Type Conversion Rules: C++03 introduced more precise rules for type conversions, particularly in cases involving multiple inheritance and virtual functions. This enhanced type safety and reduced potential ambiguities.
+
+Standard Library Headers: C++03 maintained the existing Standard Library headers and introduced headers for new features. Commonly used headers like <vector>, <map>, <algorithm>, and <string> continued to be part of the Standard Library.
+
+Compatibility with C++98: C++03 was designed to maintain backward compatibility with C++98, ensuring that existing code could be compiled and run without major modifications.
+
+Language Clarifications: While not introducing entirely new language features, C++03 provided better clarity on existing features and their behavior. This made it easier for programmers to write correct and predictable code.
+
+Standardization of Existing Practices: C++03 standardized some common practices and behaviors that had been implemented differently by various compilers in C++98, leading to greater consistency and portability.

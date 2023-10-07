@@ -1,0 +1,57 @@
+Structured Bindings:
+
+C++17 introduced structured bindings, allowing you to destructure objects, such as tuples or user-defined types, into individual variables easily.
+if with Initialization:
+
+C++17 allowed variable declaration and initialization within the condition of an if statement, improving code readability and reducing scope pollution.
+constexpr if:
+
+C++17 introduced constexpr if, enabling conditional compilation based on compile-time conditions, making code more efficient and concise.
+[[fallthrough]] Attribute:
+
+The [[fallthrough]] attribute was introduced to suppress compiler warnings about fall-through in switch statements when it is intentional.
+[[nodiscard]] Attribute:
+
+C++17 introduced the [[nodiscard]] attribute, allowing you to mark functions as having a return value that should not be ignored, helping prevent unintentional data loss.
+[[maybe_unused]] Attribute:
+
+The [[maybe_unused]] attribute was introduced to suppress compiler warnings about unused variables or entities.
+[[nodiscard]] Attribute for Variables:
+
+In C++17, you can apply the [[nodiscard]] attribute to variables to indicate that their values should not be ignored.
+inline Variables:
+
+C++17 allowed the use of the inline keyword to declare variables, indicating that multiple definitions across translation units are allowed.
+constexpr Lambda Functions:
+
+C++17 extended constexpr to lambda functions, allowing lambda expressions to be evaluated at compile time.
+std::optional:
+
+C++17 introduced the std::optional type, providing a safer and more expressive way to represent optional values.
+std::variant:
+
+The std::variant type, introduced in C++17, allows you to create a type-safe union of types, providing a type-safe alternative to union.
+std::any:
+
+C++17 introduced std::any, a type-safe container for single values of any type, providing a way to work with heterogeneous data.
+Parallel Algorithms:
+
+C++17 added parallel versions of various Standard Library algorithms, allowing for easy parallelization of computations on multi-core processors.
+Filesystem Library (std::filesystem):
+
+C++17 introduced the std::filesystem library, providing a comprehensive and portable way to interact with the file system.
+std::string_view:
+
+The std::string_view type allows efficient manipulation of substrings without copying data, improving performance in string handling.
+Guaranteed Copy Elision:
+
+C++17 introduced guaranteed copy elision, eliminating unnecessary copy operations in certain cases and improving performance.
+Improved constexpr Expressions:
+
+C++17 improved and relaxed some of the rules around constexpr expressions, allowing more flexibility in constexpr code.
+Standard Library Enhancements:
+
+C++17 introduced various improvements to the Standard Library, including new algorithms, data structures, and functions, enhancing productivity and performance.
+Hexadecimal Floating-Point Literals:
+
+C++17 introduced support for hexadecimal floating-point literals, making it easier to represent binary data in floating-point form.
